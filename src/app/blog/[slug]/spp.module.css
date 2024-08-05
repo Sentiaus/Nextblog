@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    gap:100px;
+}
+
+.imgContainer{
+    flex:1;
+    position: relative;
+    height: calc(100vh - 200px);
+}
+
+.textContainer{
+    flex:2;
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title{
+    font-size: 64px;
+}
+
+.authorContainer{
+    display: flex;
+    gap: 10px;
+}
+.metaContainer{
+    display:flex;
+    gap: 10px;
+}
+
+.meta{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.metaTitle{
+    color: gray;
+    font-weight: bold;
+}
+
+.metaText{
+    font-weight: 500;
+}
+.content{
+    font-size: 20px;
+}
+
+@media (max-width:768px){
+    .imgContainer{
+        display: none;
+    }
+}
